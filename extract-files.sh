@@ -18,8 +18,8 @@
 set -e
 
 # Required!
-export DEVICE=j7popltespr
-export DEVICE_COMMON=j7poplte-common
+export DEVICE=c7ltechn
+export DEVICE_COMMON=c7lte-common
 export VENDOR=samsung
 
 export SETUP_DEVICE_DIR=1

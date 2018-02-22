@@ -1,10 +1,10 @@
 # Inherit from vendor
-$(call inherit-product-if-exists, vendor/samsung/j7popltespr/j7popltespr-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/c7ltechn/c7ltechn-vendor.mk)
 
 # Inherit from common
-$(call inherit-product, device/samsung/j7poplte-common/j7poplte.mk)
+$(call inherit-product, device/samsung/c7lte-common/c7lte.mk)
 
-LOCAL_PATH := device/samsung/j7popltespr
+LOCAL_PATH := device/samsung/c7ltechn
 
 # Data configs
 PRODUCT_COPY_FILES += \
