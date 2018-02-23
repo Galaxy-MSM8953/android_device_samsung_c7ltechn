@@ -1,5 +1,22 @@
+# Audio
+persist.speaker.prot.enable=false
+voice.conc.fallbackpath=deep-buffer
+audio.parser.ip.buffer.size=262144
+audio.offload.video=true
+audio.playback.mch.downsample=true
+use.qti.sw.alac.decoder=true
+use.qti.sw.ape.decoder=true
+audio.offload.multiple.enabled=false
+audio.safx.pbe.enabled=true
+audio.pp.asphere.enabled=false
+audio.dolby.ds2.enabled=true
+
 # CABL
 ro.qualcomm.cabl=2
+
+# Media
+vidc.debug.perf.mode=1
+rtsp.video.keep-damaged-au=video/3gp
 
 # RAM
 ro.config.low_ram=false

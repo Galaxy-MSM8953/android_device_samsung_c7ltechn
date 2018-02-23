@@ -1,8 +1,29 @@
+# Camera
+lib64/libarac.so
+lib/libarac.so
+vendor/lib/libactuator_zc535.so
+vendor/lib/libmmcamera_onsemi_cat24c64_eeprom.so
+vendor/lib/libmmcamera_s5k3p8sx.so
+vendor/lib/libmmcamera_s5k3p8sx_ak7372.so
+vendor/lib/libmmcamera_sr846.so
+vendor/lib64/libOpenCv.so
+vendor/lib64/libPhotoEnhance.so
+vendor/lib64/libsomp.so
+vendor/lib64/libtmdisplay.so
+vendor/lib64/libtzdrmgenprov.so
+vendor/lib/libOpenCv.so
+vendor/lib/libsomp.so
+vendor/lib/libtm_interface.so
+vendor/lib/libtmdisplay.so
+vendor/lib/libtrueportrait.so
+vendor/lib/libubifocus.so
+
 # Modem
 vendor/lib64/libwms.so
 vendor/lib/libwms.so
 
 # QMI
+bin/ATFWD-daemon
 bin/irsc_util
 etc/permissions/qti_permissions.xml
 vendor/lib64/libdiag.so
@@ -38,11 +59,18 @@ vendor/lib/libqmiservices.so
 vendor/lib/libqmi.so
 vendor/lib/libsmemlog.so
 
+# Qualcomm Framework
+vendor/lib64/libDiagService.so
+vendor/lib64/libFileMux.so
+vendor/lib/libDiagService.so
+vendor/lib/libFileMux.so
+
 # Radio
 bin/diag_mdlog
 bin/diag_uart_log
 bin/ipacm-diag
 bin/netmgrd
+bin/port-bridge
 bin/qmuxd
 bin/radish
 bin/rild
@@ -56,6 +84,7 @@ lib64/libatparser.so
 lib64/libfactoryutil.so
 lib64/libfloatingfeature.so
 lib64/libomission_avoidance.so
+lib64/libpdmapper.so
 lib64/libril.so
 lib64/librilutils.so
 lib64/libsec-ril-dsds.so
@@ -64,6 +93,7 @@ lib/libatparser.so
 lib/libfactoryutil.so
 lib/libfloatingfeature.so
 lib/libomission_avoidance.so
+lib/libpdmapper.so
 lib/libril.so
 lib/librilutils.so
 lib/libsec-ril-dsds.so
@@ -76,6 +106,7 @@ vendor/lib64/libril-qcril-hook-oem.so
 vendor/lib64/libsubsystem_control.so
 vendor/lib64/libSubSystemShutdown.so
 vendor/lib64/libsystem_health_mon.so
+vendor/lib64/libvoice-svc.so
 vendor/lib64/libxml.so
 vendor/lib/libconfigdb.so
 vendor/lib/libmdmdetect.so
@@ -84,4 +115,19 @@ vendor/lib/libril-qcril-hook-oem.so
 vendor/lib/libsubsystem_control.so
 vendor/lib/libSubSystemShutdown.so
 vendor/lib/libsystem_health_mon.so
+vendor/lib/libvoice-svc.so
 vendor/lib/libxml.so
+
+# Sensors
+etc/apdr.conf
+lib64/libPedometer.so
+lib64/libSensorNativeProtocol.so
+lib64/libSwPedometer.so
+lib64/libvaultkeeperclient.so
+lib64/libvaultkeeperjni.so
+vendor/lib/libasn1cper.so
+vendor/lib/libasn1crt.so
+vendor/lib/libasn1crtx.so
+
+# Wifi
+bin/ptt_socket_app
