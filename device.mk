@@ -12,6 +12,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     $(LOCAL_PATH)/configs/data/qmi_config.xml:system/etc/data/qmi_config.xml
 
+# Security
+ADDITIONAL_DEFAULT_PROPERTIES += \
+    ro.secure=0
+
 # System properties
 TARGET_SYSTEM_PROP := $(LOCAL_PATH)/system.prop
 
