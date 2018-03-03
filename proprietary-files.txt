@@ -53,7 +53,6 @@ bin/netmgrd
 bin/port-bridge
 bin/qmuxd
 bin/radish
-bin/rild
 bin/rmt_storage
 bin/smdexe
 bin/tftp_server
@@ -65,8 +64,6 @@ lib64/libfactoryutil.so
 lib64/libfloatingfeature.so
 lib64/libomission_avoidance.so
 lib64/libpdmapper.so
-lib64/libril.so
-lib64/librilutils.so
 lib64/libsec-ril-dsds.so
 lib64/libsec-ril.so
 lib/libatparser.so
@@ -74,8 +71,6 @@ lib/libfactoryutil.so
 lib/libfloatingfeature.so
 lib/libomission_avoidance.so
 lib/libpdmapper.so
-lib/libril.so
-lib/librilutils.so
 lib/libsec-ril-dsds.so
 lib/libsec-ril.so
 vendor/lib64/libcneapiclient.so
