@@ -12,3 +12,9 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_CHARACTERISTICS := phone
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
+
+# Use the latest approved GMS identifiers
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=c7ltezc \
+    BUILD_FINGERPRINT=samsung/c7ltezc/c7ltechn:7.0/NRD90M/C7000ZCU3BRG1:user/release-keys \
+    PRIVATE_BUILD_DESC="c7ltezc-user 7.0 NRD90M C7000ZCU3BRG1 release-keys"
