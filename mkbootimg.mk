@@ -7,7 +7,7 @@ $(INSTALLED_BOOTIMAGE_TARGET): $(MKBOOTIMG) $(INTERNAL_BOOTIMAGE_FILES) $(BOOTIM
 	$(hide) $(call assert-max-image-size,$@,$(BOARD_BOOTIMAGE_PARTITION_SIZE),raw)
 	@echo "Made boot image: $@"
 
-FLASH_IMAGE_TARGET ?= $(PRODUCT_OUT)/recovery.tar
+FLASH_IMAGE_TARGET ?= $(PRODUCT_OUT)/twrp_recovery_c7000.tar
 
 $(INSTALLED_RECOVERYIMAGE_TARGET): $(MKBOOTIMG) $(recovery_ramdisk) $(recovery_kernel) $(RECOVERYIMAGE_EXTRA_DEPS)
 	@echo "----- Making recovery image ------"

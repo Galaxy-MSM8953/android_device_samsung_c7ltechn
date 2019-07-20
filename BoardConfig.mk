@@ -12,7 +12,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := j7popltespr,SM-J727P,J727P
+TARGET_OTA_ASSERT_DEVICE := c7ltechn,SM-C7000,C7000
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := MSM8953
@@ -38,10 +38,10 @@ BOARD_KERNEL_BASE := 0x80000000
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x02000000 --tags_offset 0x01e00000 --board SRPPI22A000RU
 TARGET_KERNEL_SOURCE := kernel/samsung/msm8953
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
-TARGET_KERNEL_CONFIG := j7popltespr_defconfig
+TARGET_KERNEL_CONFIG := lineageos_c7ltechn_defconfig
 
 # MKBootImg
-BOARD_CUSTOM_BOOTIMG_MK := device/samsung/j7popltespr/mkbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK := device/samsung/c7ltechn/mkbootimg.mk
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8953
@@ -51,7 +51,7 @@ TARGET_USES_64_BIT_BINDER := true
 
 # TWRP
 TW_EXCLUDE_SUPERSU := true
-TARGET_RECOVERY_FSTAB := device/samsung/j7popltespr/recovery/root/etc/fstab.j7popltespr
+TARGET_RECOVERY_FSTAB := device/samsung/c7ltechn/recovery/root/etc/fstab.c7ltechn
 TARGET_USERIMAGES_USE_EXT4 := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 TARGET_NO_RADIOIMAGE := true

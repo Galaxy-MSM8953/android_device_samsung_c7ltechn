@@ -15,15 +15,15 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := j7popltespr
+PRODUCT_RELEASE_NAME := c7ltechn
 
 $(call inherit-product, build/target/product/embedded.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
 
-PRODUCT_NAME := omni_j7popltespr
-PRODUCT_DEVICE := j7popltespr
+PRODUCT_NAME := omni_c7ltechn
+PRODUCT_DEVICE := c7ltechn
 PRODUCT_BRAND := Samsung
-PRODUCT_MODEL := SM-J727P
+PRODUCT_MODEL := SM-C7000
 PRODUCT_MANUFACTURER := Samsung
